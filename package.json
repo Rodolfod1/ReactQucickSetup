@@ -1,0 +1,33 @@
+{
+  "name": "reactqucicksetup",
+  "version": "1.0.0",
+  "description": "testing connections full stack ",
+  "main": "server.js",
+  "scripts": {
+    "server":"node server.js",
+    "test": "nodemon server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false cd client && npm install && npm run build",
+    "seed": "node ./Scripts/seedDB.js",
+    "dev": "concurrently \"npm run test\" \"npm start --prefix client\"",
+    "start": "concurrently \"npm run server\" \"npm start --prefix client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodolfod1/ReactQucickSetup.git"
+  },
+  "author": "Rdiaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rodolfod1/ReactQucickSetup/issues"
+  },
+  "homepage": "https://github.com/Rodolfod1/ReactQucickSetup#readme",
+  "dependencies": {
+    "concurrently": "^7.4.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
