@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.RibbonBottom {
+    /* margin-top: 8vh; */
+    /* margin: 10px; */
+    padding: 80px;
+    background-image: url('../../components/images/MainPage/SupplyChainNew.png');
+    background-position: center;
+    background-size: cover;
+    /* height: 5vh; */
+    /* height: 10vh; */
+    width:90vmax;
+    height:1vmax;
+
+    @media(max-width:768px) {
+      width:250px;
+      height:auto;
+  }
+  }
+  
+  .RibbonFooter {
+    /* margin-top: 18vh; */
+    background-color: #545454;
+    height: 25vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  
+  .RibbonFooter img {
+    max-width: 15rem;
+    margin: 12px 0;
+  }
+  
+  .Ficon {
+    color:#FFFFFF
+  }
+  .BotRow {
+    margin-bottom: 10px;
+  }
+  
+  .privacy-tos {
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    background: black;
+    color: gray;
+  }
+  
+  .footer-links a:link,
+  .footer-links a:active,
+  .footer-links a:visited {
+    color: gray;
+    text-decoration: none;
+    padding: 15px 30px;
+    font: bold 1.1rem/100% 'Raleway', sans-serif;
+    transition: all .5s ease;
+  }
+  
+  .footer-links a:hover {
+    color: var(--blue);
+    transition: all .3s ease;
+  }
+  
+  
+span.ribbon-as i {
+    font-size: 1.9rem;
+  }
+  
+  span.ribbon-as i:nth-child(1) {
+    padding-left: 30px;
+  }
+  
+  .copyright {
+    font: 0.8rem/100% 'Calibri', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+  }
+  

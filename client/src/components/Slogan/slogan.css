@@ -1,0 +1,55 @@
+/* adding color variable  */
+:root{
+    --ryblue:#004aad;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.legend{
+    background-image: url('../images/MainPage/ponemos.png');
+    background-position:center;
+    background-size:cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    
+}
+
+.pcbw{
+   justify-content:left;
+}
+.Blwtlogo{
+    
+    width:40vh;
+}
+
+.legend{
+    color:#FFFFFF;
+    padding-top: 30px;
+  }
+  
+  .legend h1{
+    font-family: 'Merienda', cursive;
+    font-size: 35pt;
+    padding-top:11rem;
+    
+    
+  }
+  
+  .legend h4{
+    font-family: 'Merienda', cursive;
+    padding-top: 30px;
+    font-size: 16pt;
+  }
+  
+  .wrapping{
+    /* background: var(--ryblue); */
+    width: 96rem;
+    margin-bottom: 30px;
+  }

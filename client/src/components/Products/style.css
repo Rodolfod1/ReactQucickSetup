@@ -1,0 +1,14 @@
+.prod-imgs {
+    /* width: calc(100% - 60px); */
+    /* height: 495px; */
+    /* margin: 10px auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prod-imgs > img {
+    /* margin: 4px; */
+    outline: 1px solid #1c1c1c;
+    opacity: 0.85; /* the place holders were bothering me at 100% opacity */
+}

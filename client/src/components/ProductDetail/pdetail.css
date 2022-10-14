@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/* color variables */
+:root {
+    --blue: #1c4874;
+    --orange: #f5822a;
+    --ltblue: #859db0;
+  }
+  
+  .offcanvas{
+    background-color: #E9E8E8;
+    }
+
+  .offcanvas-backdrop.show{
+    opacity: 0;
+  }
+
+  .PhotoOffcanvas{
+    width: 15vmax;
+    height: auto;
+  }
+
+  .NameOfproduct{
+    margin-top: 40px;
+    color:var(--blue);
+    font-size: 24pt ;
+  }
+ .dwnld{
+    float: right;
+ }
+  

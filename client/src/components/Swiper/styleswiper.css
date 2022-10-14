@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.slide-Wrapper{
+    /* position:relative; */
+    /* width: 100vmax;
+    background-size: cover;
+    height:auto;
+    display:inline-block;
+    margin-top: 10px;  */
+ }
+
+
+
+.swiper {
+    /* Adjust the size of the swiper */
+    width: 100%;
+    height: auto;
+    /* display:inline-block; */
+    @media (max-width:768px) {
+       
+       width: 100%;
+       height: auto;
+    }
+    
+}
+
+.swiper-slide{
+    /* controls slider inside swipper-wrapper */
+    /* margin-top: 10px; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    width: auto;
+    height: 100%;
+    @media(max-width:768px) {
+        width:250px;
+        height:auto;
+    }
+}
+
+.swiper-slide img{
+    /* image size inside the swiper */
+    /* background-size: cover;
+    background-position: center; */
+    /* display:inline-flexbox; */
+    display: block;
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+    
+}
+
+
+.mySwiper2 {
+    /* sets the whole swiper on top */
+    height:25rem;
+    width: auto;
+    box-sizing: border-box;
+ 
+  }
+
+
+
+ .mySwiper {
+    /* Sets image sizes within second swiper  */
+    height:08rem;
+    width: auto;
+    box-sizing: border-box;
+    padding: 10px 0;
+    display: inline-block;
+  }
+
+  /* .mySwiper2 .swiper-slide {
+    width: auto;
+    height: 100%;
+    opacity: 1;
+  } */
+  
+  .mySwiper .swiper-slide {
+    width: auto;
+    height: 100%;
+    opacity: .6;
+  }
+  
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+ 
+  .SecSwiper{
+         /* position:relative; */
+        /* width: 60%;
+        height:16rem;
+        display: inline-block; */
+        
+  }

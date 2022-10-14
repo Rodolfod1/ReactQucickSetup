@@ -7,7 +7,7 @@ const controller = require("../../Controllers/userController")
 
 
 router.route("/test")
-.get(controller.test)
+.get(controller.testing)
 
 
 

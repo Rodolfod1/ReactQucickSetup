@@ -1,0 +1,45 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+  /* background:linear-gradient(225deg, #0E3659 0%, #DCEAED 100%);  */
+  /* background: white; */
+  color: #343434;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.VerOpt {
+  /* background-color: #343a50; */
+  /* color: #ffffff; */
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: flex-start;
+  margin: 10px;
+
+}
+.VerOpt > span{
+  padding-bottom: 20px;
+}
+.prodWrapper{
+  display: flex;
+}
+
+.catalog{
+  display: flex;
+  width: 78%;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5px;  
+}

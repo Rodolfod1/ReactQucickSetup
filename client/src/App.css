@@ -1,9 +1,29 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+  /* background: white; */
+  /* background: brown; */
+  color: #343434;
+  overflow: auto;
+  min-height: 100vh;
+}
+
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -14,17 +34,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
+
   color: #61dafb;
 }
 
